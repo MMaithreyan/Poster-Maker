@@ -1,0 +1,29 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    width: 60%;
+    background-color: brown;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.re-body {
+    background-color: chartreuse;
+    height: 1000px;
+}
+.profile-pic{
+    width: 165px;
+    height: 165px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: black;
+color: transparent;
+transition: all .3s ease;
+
+position: relative;
+transition: all .3s ease;
+}
