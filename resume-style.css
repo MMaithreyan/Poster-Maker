@@ -1,13 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
-  width: 60%z;
+  
   background-color: brown;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .re-body {
-  background-color: chartreuse;
+  margin-top: 50px;
+  background-color: rgb(113, 245, 24);
   height: 1000px;
+  
+}
+.left-cont{
+  width: 500px;
+  height: 1000px;
+  background-color: rgb(126, 240, 255);
 }
 
 .profile-pic {
@@ -19,6 +30,7 @@ input {
   width: 170px;
   height: 100px;
   padding-top: 70px;
+  margin-left: 89px;
 }
 
 input:hover {
@@ -27,15 +39,18 @@ input:hover {
   padding-left: 10px;
   width: 170px;
   height: 120px;
+  margin-left: 100px;
 }
 
 img {
   position: absolute;
-  object-fit: cover;
+  object-fit:cover;
   width: 166px;
   height: 166px;
   border-radius: 165px;
   z-index: 0;
-
-
+ 
+}
+.name{
+  align-items: center;
 }
