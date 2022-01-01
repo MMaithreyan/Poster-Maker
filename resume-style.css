@@ -25,22 +25,7 @@ body {
   display: flex;
 }
 
-input {
-  z-index: 0;
-  width: 170px;
-  height: 100px;
-  padding-top: 70px;
-  margin-left: 89px;
-}
 
-input:hover {
-  z-index: 1;
-  padding-top: 50px;
-  padding-left: 10px;
-  width: 170px;
-  height: 120px;
-  margin-left: 100px;
-}
 
 img {
   position: absolute;
@@ -50,7 +35,4 @@ img {
   border-radius: 165px;
   z-index: 0;
  
-}
-.name{
-  align-items: center;
 }
