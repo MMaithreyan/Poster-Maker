@@ -6,11 +6,13 @@ var loadFile = function (event) {
   function getData()
   {
       //gettting the values
-      var email = document.getElementById("email").value;
+     var email = document.getElementById("email").value;
       var password= document.getElementById("password").value; 
       var telephone= document.getElementById("telephone").value; 
       var mobile= document.getElementById("mobile").value; 
+
       //saving the values in local storage
+
       localStorage.setItem("txtValue", email);
       localStorage.setItem("txtValue1", password);
       localStorage.setItem("txtValue2", mobile);
