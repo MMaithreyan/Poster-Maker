@@ -13,9 +13,6 @@
 
 }
 
-.profile-pic {
-  position: relative;
-}
 
 img {
   width: 165px;
@@ -23,11 +20,3 @@ img {
   border-radius: 100px;
 }
 
-.file {
-  position: absolute;
- 
-  z-index: 1;
-  background-color: aliceblue;
-  width: 111px;
-  height: 120px;
-}
