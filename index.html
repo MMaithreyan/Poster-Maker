@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume-Design</title>
   <link rel="stylesheet" href="resume-style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
 </head>
 
@@ -16,25 +16,27 @@
   <div class="container">
 
     <form action="index1.html">
+
       <legend>Sign Up Form</legend>
 
-      <label>upload profile pic <br>
+      <label class="color">upload profile pic <br>
         <input  type="file" name="profile" id="pic" onchange="loadFile(event)">
       </label> <br>
       
-      <label>Email:<br />
-        <input type="text" name="email" id="email" />
+      <label class="color">Name:<br />
+        <input type="text" name="name" id="email" />
       </label><br />
 
-      <label>Password<br />
-        <input type="text" name="password" id="password" />
+      <label class="color">About Yourself<br />
+        <input type="text" name="about" id="password" />
       </label><br>
+<!-- ---------------------------------------------------------------------------------- -->
 
-      <label>Mobile:<br />
+      <label class="color">Mobile:<br />
         <input type="text" name="mobile" id="mobile" />
       </label><br />
 
-      <label>Telephone:<br />
+      <label class="color">Telephone:<br />
         <input type="text" name="telephone" id="telephone" />
       </label><br>
 

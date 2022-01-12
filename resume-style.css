@@ -4,13 +4,24 @@
 }
 
 .container {
-  background-color: chartreuse;
+  background-color: #000008;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  display: flex;
 }
 
 .left-container {
   width: 40%;
   height: 1000px;
-
+  position: relative;
+}
+.right-container{
+  width: 90%;
+  background-color: yellow;
+  height: 40px;
+  position: relative;
 }
 
 
@@ -19,4 +30,12 @@ img {
   height: 165px;
   border-radius: 100px;
 }
-
+.color{
+  color: white;
+}
+.data{
+  color: #0ee75d;
+}
+.data1{
+  color: white;
+}
