@@ -41,43 +41,86 @@ img {
 }
 
 .data {
- color: #0ee75d;
+  color: #0ee75d;
   text-align: center;
   font-weight: 900;
   font-size: xx-large;
   font-style: italic;
   font-stretch: unset;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .data1 {
   color: white;
   text-align: center;
-font-weight: bold;
+  font-weight: bold;
 }
-.contact1{
+
+.contact {}
+
+.contact1 {
   width: 100%;
   background-color: white;
   color: black;
   margin-top: 30px;
-border-radius: 10px;
-padding: 5px;
+  border-radius: 10px;
+  padding: 5px;
 }
-.data2{
+
+.data2 {
   color: white;
+  padding-top: 15px;
+  padding-left: 5px;
 }
-.data3{
+
+.data3 {
   color: white;
+  padding-top: 15px;
+  padding-left: 5px;
 }
-.mail{
+
+.data4 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.data5 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.mail {
   display: flex;
 }
+
+.location {
+  display: flex;
+}
+
+.linkedin {
+  display: flex;
+}
+
+.phone {
+  display: flex;
+}
+
 .far {
+  padding-top: 15px;
+
   color: red;
 }
+
 .fas {
+  padding-top: 15px;
+
   color: red;
 }
-.phone{
-  display: flex;
+
+.fab {
+  color: red;
+  padding-top: 15px;
+
 }
