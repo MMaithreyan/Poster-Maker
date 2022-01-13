@@ -5,11 +5,15 @@
 
 .container {
   background-color: #000008;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: 20px;
   position: relative;
   display: flex;
+}
+
+.profile-pic {
+  text-align: center;
 }
 
 .left-container {
@@ -17,7 +21,8 @@
   height: 1000px;
   position: relative;
 }
-.right-container{
+
+.right-container {
   width: 90%;
   background-color: yellow;
   height: 40px;
@@ -30,12 +35,49 @@ img {
   height: 165px;
   border-radius: 100px;
 }
-.color{
+
+.color {
   color: white;
 }
-.data{
-  color: #0ee75d;
+
+.data {
+ color: #0ee75d;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+  font-style: italic;
+  font-stretch: unset;
+  text-transform: uppercase; 
 }
-.data1{
+
+.data1 {
   color: white;
+  text-align: center;
+font-weight: bold;
+}
+.contact1{
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+border-radius: 10px;
+padding: 5px;
+}
+.data2{
+  color: white;
+}
+.data3{
+  color: white;
+}
+.mail{
+  display: flex;
+}
+.far {
+  color: red;
+}
+.fas {
+  color: red;
+}
+.phone{
+  display: flex;
 }
