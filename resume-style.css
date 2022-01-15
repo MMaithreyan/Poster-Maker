@@ -65,6 +65,9 @@ img {
   margin-top: 30px;
   border-radius: 10px;
   padding: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .data2 {
@@ -89,6 +92,34 @@ img {
   color: white;
   padding-top: 15px;
   padding-left: 5px;
+}
+
+#data6 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  width: 140px;
+}
+
+#data7 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  width: 140px;
+}
+
+#data8 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  width: 140px;
+}
+
+#data9 {
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  width: 140px;
 }
 
 .mail {
@@ -122,5 +153,40 @@ img {
 .fab {
   color: red;
   padding-top: 15px;
+}
 
+.mtr1, .mtr2, .mtr3, .mtr4 {
+  display: flex;
+  padding-top: 15px;
+  align-items: end;
+}
+
+.skill {
+
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+.skills-container {
+  width: 100%;
+  height: fit-content;
+}
+
+.meter {
+  /* background-color: red; */
+  width: 100%;
+
+}
+
+#meter1, #meter2, #meter3, #meter4 {
+  width: 100%;
+  height: 30px;
 }

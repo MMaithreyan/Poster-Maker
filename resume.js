@@ -18,6 +18,9 @@ function getData() {
   var skill3 = document.getElementById("skill3").value;
   var skill4 = document.getElementById("skill4").value;
   var sk1 = document.getElementById("sk1").value;
+  var sk2 = document.getElementById("sk2").value;
+  var sk3 = document.getElementById("sk3").value;
+  var sk4 = document.getElementById("sk4").value;
 
   //saving the values in local storage
   localStorage.setItem("txtValue", email);
@@ -31,6 +34,9 @@ function getData() {
   localStorage.setItem("txtValue8", skill3);
   localStorage.setItem("txtValue9", skill4);
   localStorage.setItem("txtValue10", sk1);
+  localStorage.setItem("txtValue11", sk2);
+  localStorage.setItem("txtValue12", sk3);
+  localStorage.setItem("txtValue13", sk4);
 
 }
 
@@ -46,4 +52,7 @@ document.getElementById("data7").innerHTML = localStorage.getItem("txtValue7");
 document.getElementById("data8").innerHTML = localStorage.getItem("txtValue8");
 document.getElementById("data9").innerHTML = localStorage.getItem("txtValue9");
 document.getElementById("meter1").value = localStorage.getItem("txtValue10");
+document.getElementById("meter2").value = localStorage.getItem("txtValue11");
+document.getElementById("meter3").value = localStorage.getItem("txtValue12");
+document.getElementById("meter4").value = localStorage.getItem("txtValue13");
 
