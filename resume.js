@@ -11,6 +11,8 @@ function getData() {
   var password = document.getElementById("password").value;
   var telephone = document.getElementById("telephone").value;
   var mobile = document.getElementById("mobile").value;
+  var gitlink = document.getElementById("git").value;
+
   var id = document.getElementById("id").value;
   var address = document.getElementById("Address").value;
   var skill1 = document.getElementById("skill1").value;
@@ -26,6 +28,8 @@ function getData() {
   localStorage.setItem("txtValue", email);
   localStorage.setItem("txtValue1", password);
   localStorage.setItem("txtValue2", mobile);
+  localStorage.setItem("github-link", gitlink);
+
   localStorage.setItem("txtValue3", telephone);
   localStorage.setItem("txtValue4", id);
   localStorage.setItem("txtValue5", address);
@@ -46,6 +50,8 @@ document.getElementById("data1").innerHTML = localStorage.getItem("txtValue1");
 document.getElementById("data2").innerHTML = localStorage.getItem("txtValue2");
 document.getElementById("data3").innerHTML = localStorage.getItem("txtValue3");
 document.getElementById("data4").innerHTML = localStorage.getItem("txtValue4");
+document.getElementById("github").innerHTML = localStorage.getItem("github-link");
+
 document.getElementById("data5").innerHTML = localStorage.getItem("txtValue5");
 document.getElementById("data6").innerHTML = localStorage.getItem("txtValue6");
 document.getElementById("data7").innerHTML = localStorage.getItem("txtValue7");
