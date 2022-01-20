@@ -7,14 +7,12 @@ var loadFile = function (event) {
 
 function getData() {
   //gettting the values
-  var email = document.getElementById("email").value;
+  var name = document.getElementById("name").value;
   var password = document.getElementById("password").value;
   var pro = document.getElementById("pro").value;
-
   var telephone = document.getElementById("telephone").value;
   var mobile = document.getElementById("mobile").value;
-  var gitlink = document.getElementById("git").value;
-
+  var gitlink = document.getElementById("git");
   var id = document.getElementById("id").value;
   var address = document.getElementById("Address").value;
   var skill1 = document.getElementById("skill1").value;
@@ -25,14 +23,14 @@ function getData() {
   var sk2 = document.getElementById("sk2").value;
   var sk3 = document.getElementById("sk3").value;
   var sk4 = document.getElementById("sk4").value;
+  var title = document.getElementById("title").value;
 
   //saving the values in local storage
-  localStorage.setItem("txtValue", email);
+  localStorage.setItem("txtValue", name);
   localStorage.setItem("txtValue1", password);
   localStorage.setItem("pro", pro);
   localStorage.setItem("txtValue2", mobile);
   localStorage.setItem("github-link", gitlink);
-
   localStorage.setItem("txtValue3", telephone);
   localStorage.setItem("txtValue4", id);
   localStorage.setItem("txtValue5", address);
@@ -44,6 +42,7 @@ function getData() {
   localStorage.setItem("txtValue11", sk2);
   localStorage.setItem("txtValue12", sk3);
   localStorage.setItem("txtValue13", sk4);
+  localStorage.setItem("title", title);
 
 }
 
@@ -55,7 +54,6 @@ document.getElementById("data2").innerHTML = localStorage.getItem("txtValue2");
 document.getElementById("data3").innerHTML = localStorage.getItem("txtValue3");
 document.getElementById("data4").innerHTML = localStorage.getItem("txtValue4");
 document.getElementById("github").innerHTML = localStorage.getItem("github-link");
-
 document.getElementById("data5").innerHTML = localStorage.getItem("txtValue5");
 document.getElementById("data6").innerHTML = localStorage.getItem("txtValue6");
 document.getElementById("data7").innerHTML = localStorage.getItem("txtValue7");
@@ -65,4 +63,5 @@ document.getElementById("meter1").value = localStorage.getItem("txtValue10");
 document.getElementById("meter2").value = localStorage.getItem("txtValue11");
 document.getElementById("meter3").value = localStorage.getItem("txtValue12");
 document.getElementById("meter4").value = localStorage.getItem("txtValue13");
+document.getElementById("project-title").innerHTML = localStorage.getItem("title");
 

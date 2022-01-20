@@ -7,18 +7,15 @@ body {
   z-index: 1;
   background-color: #0000;
   font-family: 'Josefin Sans', sans-serif;
-
+    width: 70%;
 }
 
 .container {
   background-color: #000;
   z-index: 1;
-  width: 900px;
-  height: 1000px;
+  width: 70%;
   margin: auto;
   padding: 20px;
-  position: relative;
-  display: flex;
 }
 
 .profile-pic {
@@ -27,7 +24,6 @@ body {
 
 .left-container {
   width: 40%;
-  height: 1000px;
   position: relative;
 }
 img {
@@ -154,7 +150,6 @@ img {
 }
 .right-container {
   width: 100%;
-  height: fit-content;
   position: relative;
   box-shadow:0px 0px 5px #60e315;
   margin-left: 50px;
