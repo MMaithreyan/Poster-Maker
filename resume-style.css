@@ -10,10 +10,17 @@ body {
   text-align: center;
   margin: auto;
 }
+.container1{
+  background-color: #000;
+  z-index: 1;
+  padding: 20px;
+}
+
 
 .container {
   background-color: #000;
   z-index: 1;
+  width: 400px;
   display: flex;
   padding: 20px;
 }
