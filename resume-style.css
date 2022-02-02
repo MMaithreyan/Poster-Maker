@@ -1,11 +1,17 @@
-.container{
-  text-align: center;
-  position: relative;
-  color: white;
-}
-.name{
-  position: absolute;
-  bottom: 0;
-  text-align: center;
 
+.poster{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.container{
+  background-color: chartreuse;
+  margin: auto;
+  width: 350px;
+  height: 800px;
+  position: relative;
+  text-align: center;
+}
+#output{
+  position: absolute;
 }
