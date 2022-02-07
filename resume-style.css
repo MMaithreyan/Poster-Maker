@@ -32,11 +32,29 @@ top: 0;
   top: 66px;
   height: 200px;
   width: 220px;
-  border-radius: 9px;}
+  border-radius: 9px;
+  z-index: 1;
+}
+.profile img:hover{
+  position: relative;
+  left: 103px;
+  top: 66px;
+  height: 200px;
+  width: 220px;
+  border-radius: 9px;
+  z-index: -2;
+}
+
 .profile input{
   display: none;
 }
-.change{
+.change label{
   position: absolute;
-
+  background-color: red;
+  right: 45px;
+  top: 84px;
+  width: 190px;
+  height: 150px;
+  z-index: 1;
 }
+
