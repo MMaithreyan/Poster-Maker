@@ -27,13 +27,13 @@ position: absolute;
 top: 0;
 }
 .profile img{
-  position: relative;
+  position: inherit;
   left: 103px;
   top: 66px;
   height: 200px;
   width: 220px;
   border-radius: 9px;
-  z-index: 1;
+  z-index: 0;
 }
 .profile img:hover{
   position: relative;
@@ -42,19 +42,20 @@ top: 0;
   height: 200px;
   width: 220px;
   border-radius: 9px;
-  z-index: -2;
+  z-index: -1;
 }
-
 .profile input{
   display: none;
 }
 .change label{
   position: absolute;
-  background-color: red;
+  background-color: rgb(0, 255, 0);
   right: 45px;
   top: 84px;
   width: 190px;
   height: 150px;
-  z-index: 1;
+  border-radius: 20px;
 }
-
+.change:hover{
+  z-index: 10000;
+}
