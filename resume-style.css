@@ -1,13 +1,13 @@
 body {
-  width: 350px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  height: 100vh;
+  background: url("https://c.tenor.com/RqH54jCv970AAAAM/lines.gif");
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 .poster{
@@ -19,7 +19,6 @@ display: block;
   margin: auto;
   width: 350px;
   height: 506px;
-  text-align: center;
   position: relative;
 }
 .profile{
@@ -34,6 +33,7 @@ top: 0;
   width: 220px;
   border-radius: 9px;
   z-index: 0;
+  object-fit: cover;
 }
 .profile img:hover{
   position: relative;
@@ -47,6 +47,8 @@ top: 0;
 .profile input{
   display: none;
 }
+
+
 .change label{
   position: absolute;
   background-color: rgb(0, 255, 0);
@@ -55,7 +57,18 @@ top: 0;
   width: 190px;
   height: 150px;
   border-radius: 20px;
+   text-align: center;
 }
 .change:hover{
   z-index: 10000;
+}
+.input-container{
+  
+  margin: auto;
+}
+#data1{
+ position: absolute;
+ top: 0px;
+ color: wheat;
+ padding: 8px;
 }
