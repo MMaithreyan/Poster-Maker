@@ -1,13 +1,11 @@
 body {
   width: 100%;
+  height: 100vh;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  background: url("https://c.tenor.com/RqH54jCv970AAAAM/lines.gif");
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
 
 .poster{
@@ -63,12 +61,71 @@ top: 0;
   z-index: 10000;
 }
 .input-container{
-  
   margin: auto;
+  width: fit-content;
+  height: fit-content;
 }
+
 #data1{
- position: absolute;
- top: 0px;
- color: wheat;
- padding: 8px;
-}
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 8px;
+ }
+ #data2{
+  position: absolute;
+  text-align: center;
+  left: 40px;
+  width: 260px;
+  height: fit-content;
+  top: 337px;
+  color: white;
+  padding: 8px;
+ }
+ #data3{
+  position: absolute;
+  top: 365px;
+  color: white;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+ }
+ #data4{
+  position: absolute;
+  bottom: 202px;
+  color: white;
+  padding: 8px;
+  left: 146px;
+ }
+ #data5{
+  width: 211px;
+  height: fit-content;
+  position: absolute;
+  top: 290px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  left: 100px;
+ }
+ #data6{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  padding: 8px;
+ }
+ #data7{
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 8px;
+ }
+ #data8{
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 8px;
+ }
+ .inputs{
+   display: contents;
+   }
