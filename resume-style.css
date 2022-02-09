@@ -84,7 +84,7 @@ top: 0;
  }
  #data3{
   position: absolute;
-  top: 365px;
+  top: 359px;
   color: white;
   padding: 8px;
   margin-left: 10px;
@@ -106,25 +106,37 @@ top: 0;
   color: white;
   text-align: center;
   padding: 8px;
-  left: 100px;
+  left: 90px;
  }
  #data6{
+  position: absolute;
+  bottom: 43px;
+  color: white;
+  text-align: end;
+  padding: 8px;
+  width: 335px;
+ 
+ }
+ #data7{
+  position: absolute;
+  bottom: 11px;
+  color: white;
+  padding: 8px;
+  right: 0;
+ }
+ #data8{
   position: absolute;
   bottom: 0px;
   color: white;
   padding: 8px;
  }
- #data7{
+ #data9{
   position: absolute;
-  top: 0px;
+  bottom: 27px;
   color: white;
+  text-align: end;
   padding: 8px;
- }
- #data8{
-  position: absolute;
-  top: 0px;
-  color: white;
-  padding: 8px;
+  width: 335px;
  }
  .inputs{
    display: contents;
