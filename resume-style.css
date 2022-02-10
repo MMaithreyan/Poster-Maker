@@ -6,6 +6,8 @@ body {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  font-family: cursive;
+  font-weight: 600;
 }
 
 .poster{
@@ -68,8 +70,9 @@ top: 0;
 
 #data1{
   position: absolute;
-  top: 0px;
-  color: white;
+  top: 10px;
+  left: 10px;
+  color: #0ee75d;
   padding: 8px;
  }
  #data2{
@@ -87,6 +90,7 @@ top: 0;
   top: 359px;
   color: white;
   padding: 8px;
+  width: 93%;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -110,31 +114,37 @@ top: 0;
  }
  #data6{
   position: absolute;
-  bottom: 43px;
+  bottom: 60px;
   color: white;
-  text-align: end;
+  text-align: start;
   padding: 8px;
   width: 335px;
  
  }
  #data7{
   position: absolute;
-  bottom: 11px;
+  bottom: 46px;
   color: white;
   padding: 8px;
   right: 0;
  }
  #data8{
   position: absolute;
-  bottom: 0px;
-  color: white;
+  bottom: -7px;
+  color: #2ad4ff;
   padding: 8px;
+  left: 7px;
+  width: 94%;
+  height: 50px;
+  /* background-color: red; */
+  text-align: center;
+  overflow-wrap: break-word;
  }
  #data9{
   position: absolute;
-  bottom: 27px;
+  bottom: 40px;
   color: white;
-  text-align: end;
+  text-align: start;
   padding: 8px;
   width: 335px;
  }
