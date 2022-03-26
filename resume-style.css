@@ -8,6 +8,7 @@ body {
   margin-bottom: auto;
   font-family: cursive;
   font-weight: 600;
+  background-color: #0ee75d;
 }
 
 .poster{
@@ -150,4 +151,8 @@ top: 0;
  }
  .inputs{
    display: contents;
+
+   }
+   .abc{
+     padding-bottom: 50px;
    }
